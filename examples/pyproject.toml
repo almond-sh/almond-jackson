@@ -1,0 +1,12 @@
+[project]
+name = "almond-jackson-examples"
+version = "0.0.0"
+description = "Jupyter environment used to run the almond-jackson example notebooks"
+requires-python = ">=3.10"
+dependencies = [
+  "jupyter-client>=8",
+  "nbconvert>=7.17",
+]
+
+[tool.uv]
+package = false
